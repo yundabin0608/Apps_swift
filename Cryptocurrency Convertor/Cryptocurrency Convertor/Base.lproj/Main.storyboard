@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cryptocurrency_Convertor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BTC: 60.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBB-cm-aXN">
+                                <rect key="frame" x="139" y="44" width="136" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount to be exchanged" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sO-5X-Snw">
+                                <rect key="frame" x="60" y="161" width="294" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WSC-43-kEE">
+                                <rect key="frame" x="162.5" y="231" width="89" height="32"/>
+                                <segments>
+                                    <segment title="BTC"/>
+                                    <segment title="ETH"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1T-8a-lDR">
+                                <rect key="frame" x="169" y="331" width="76" height="30"/>
+                                <state key="normal" title="Exchanged"/>
+                                <connections>
+                                    <action selector="exchangeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jQ-wv-1Xe"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Exchange rate" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YMZ-ge-qMQ">
+                                <rect key="frame" x="60" y="111" width="294" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WSC-43-kEE" firstAttribute="top" secondItem="SBB-cm-aXN" secondAttribute="bottom" constant="150" id="CHF-iB-Qqj"/>
+                            <constraint firstItem="8sO-5X-Snw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="EMq-Hb-xfA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YMZ-ge-qMQ" secondAttribute="trailing" constant="60" id="GYX-f2-lJb"/>
+                            <constraint firstItem="SBB-cm-aXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GyG-fb-9X0"/>
+                            <constraint firstItem="8sO-5X-Snw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PQX-M0-Jjh"/>
+                            <constraint firstItem="8sO-5X-Snw" firstAttribute="top" secondItem="SBB-cm-aXN" secondAttribute="bottom" constant="80" id="VKO-Ey-kg5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8sO-5X-Snw" secondAttribute="trailing" constant="60" id="Wt9-HG-uE7"/>
+                            <constraint firstItem="SBB-cm-aXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YJb-YQ-Gv7"/>
+                            <constraint firstItem="WSC-43-kEE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ibH-XY-wZa"/>
+                            <constraint firstItem="YMZ-ge-qMQ" firstAttribute="top" secondItem="SBB-cm-aXN" secondAttribute="bottom" constant="30" id="jXx-iy-oVV"/>
+                            <constraint firstItem="YMZ-ge-qMQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="qyc-zE-qRf"/>
+                            <constraint firstItem="SBB-cm-aXN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rPA-cI-vky"/>
+                            <constraint firstItem="Y1T-8a-lDR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rjy-Kv-w7F"/>
+                            <constraint firstItem="YMZ-ge-qMQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w81-mj-Uet"/>
+                            <constraint firstItem="Y1T-8a-lDR" firstAttribute="top" secondItem="SBB-cm-aXN" secondAttribute="bottom" constant="250" id="zYj-YY-xHB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="8sO-5X-Snw" id="Biu-uG-Tmg"/>
+                        <outlet property="ratioTextField" destination="YMZ-ge-qMQ" id="5hQ-zP-s5G"/>
+                        <outlet property="resultLabel" destination="SBB-cm-aXN" id="TNi-u4-b3Y"/>
+                        <outlet property="toggleCurrency" destination="WSC-43-kEE" id="ePb-l8-coW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		472A8E2726F06E78008203EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E2626F06E78008203EF /* AppDelegate.swift */; };
-		472A8E2926F06E78008203EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E2826F06E78008203EF /* SceneDelegate.swift */; };
-		472A8E2B26F06E78008203EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E2A26F06E78008203EF /* ViewController.swift */; };
-		472A8E2E26F06E78008203EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E2C26F06E78008203EF /* Main.storyboard */; };
-		472A8E3026F06E7A008203EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E2F26F06E7A008203EF /* Assets.xcassets */; };
-		472A8E3326F06E7A008203EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E3126F06E7A008203EF /* LaunchScreen.storyboard */; };
-		472A8E3B26FC4B46008203EF /* Chapter 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E3A26FC4B46008203EF /* Chapter 4.swift */; };
+		472A8E4926FC51F8008203EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E4826FC51F8008203EF /* AppDelegate.swift */; };
+		472A8E4B26FC51F8008203EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E4A26FC51F8008203EF /* SceneDelegate.swift */; };
+		472A8E4D26FC51F8008203EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A8E4C26FC51F8008203EF /* ViewController.swift */; };
+		472A8E5026FC51F8008203EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E4E26FC51F8008203EF /* Main.storyboard */; };
+		472A8E5226FC51FB008203EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E5126FC51FB008203EF /* Assets.xcassets */; };
+		472A8E5526FC51FB008203EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472A8E5326FC51FB008203EF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		472A8E2326F06E78008203EF /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		472A8E2626F06E78008203EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		472A8E2826F06E78008203EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		472A8E2A26F06E78008203EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		472A8E2D26F06E78008203EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		472A8E2F26F06E7A008203EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		472A8E3226F06E7A008203EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		472A8E3426F06E7A008203EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		472A8E3A26FC4B46008203EF /* Chapter 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Chapter 4.swift"; path = "../Chapter 4.swift"; sourceTree = "<group>"; };
+		472A8E4526FC51F8008203EF /* Cryptocurrency Convertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryptocurrency Convertor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472A8E4826FC51F8008203EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		472A8E4A26FC51F8008203EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		472A8E4C26FC51F8008203EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		472A8E4F26FC51F8008203EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472A8E5126FC51FB008203EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472A8E5426FC51FB008203EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472A8E5626FC51FB008203EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		472A8E2026F06E78008203EF /* Frameworks */ = {
+		472A8E4226FC51F8008203EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		472A8E1A26F06E78008203EF = {
+		472A8E3C26FC51F8008203EF = {
 			isa = PBXGroup;
 			children = (
-				472A8E3A26FC4B46008203EF /* Chapter 4.swift */,
-				472A8E2526F06E78008203EF /* MyApp */,
-				472A8E2426F06E78008203EF /* Products */,
+				472A8E4726FC51F8008203EF /* Cryptocurrency Convertor */,
+				472A8E4626FC51F8008203EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		472A8E2426F06E78008203EF /* Products */ = {
+		472A8E4626FC51F8008203EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				472A8E2326F06E78008203EF /* MyApp.app */,
+				472A8E4526FC51F8008203EF /* Cryptocurrency Convertor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		472A8E2526F06E78008203EF /* MyApp */ = {
+		472A8E4726FC51F8008203EF /* Cryptocurrency Convertor */ = {
 			isa = PBXGroup;
 			children = (
-				472A8E2626F06E78008203EF /* AppDelegate.swift */,
-				472A8E2826F06E78008203EF /* SceneDelegate.swift */,
-				472A8E2A26F06E78008203EF /* ViewController.swift */,
-				472A8E2C26F06E78008203EF /* Main.storyboard */,
-				472A8E2F26F06E7A008203EF /* Assets.xcassets */,
-				472A8E3126F06E7A008203EF /* LaunchScreen.storyboard */,
-				472A8E3426F06E7A008203EF /* Info.plist */,
+				472A8E4826FC51F8008203EF /* AppDelegate.swift */,
+				472A8E4A26FC51F8008203EF /* SceneDelegate.swift */,
+				472A8E4C26FC51F8008203EF /* ViewController.swift */,
+				472A8E4E26FC51F8008203EF /* Main.storyboard */,
+				472A8E5126FC51FB008203EF /* Assets.xcassets */,
+				472A8E5326FC51FB008203EF /* LaunchScreen.storyboard */,
+				472A8E5626FC51FB008203EF /* Info.plist */,
 			);
-			path = MyApp;
+			path = "Cryptocurrency Convertor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		472A8E2226F06E78008203EF /* MyApp */ = {
+		472A8E4426FC51F8008203EF /* Cryptocurrency Convertor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 472A8E3726F06E7A008203EF /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 472A8E5926FC51FB008203EF /* Build configuration list for PBXNativeTarget "Cryptocurrency Convertor" */;
 			buildPhases = (
-				472A8E1F26F06E78008203EF /* Sources */,
-				472A8E2026F06E78008203EF /* Frameworks */,
-				472A8E2126F06E78008203EF /* Resources */,
+				472A8E4126FC51F8008203EF /* Sources */,
+				472A8E4226FC51F8008203EF /* Frameworks */,
+				472A8E4326FC51F8008203EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyApp;
-			productName = MyApp;
-			productReference = 472A8E2326F06E78008203EF /* MyApp.app */;
+			name = "Cryptocurrency Convertor";
+			productName = "Cryptocurrency Convertor";
+			productReference = 472A8E4526FC51F8008203EF /* Cryptocurrency Convertor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		472A8E1B26F06E78008203EF /* Project object */ = {
+		472A8E3D26FC51F8008203EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					472A8E2226F06E78008203EF = {
+					472A8E4426FC51F8008203EF = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 472A8E1E26F06E78008203EF /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 472A8E4026FC51F8008203EF /* Build configuration list for PBXProject "Cryptocurrency Convertor" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 472A8E1A26F06E78008203EF;
-			productRefGroup = 472A8E2426F06E78008203EF /* Products */;
+			mainGroup = 472A8E3C26FC51F8008203EF;
+			productRefGroup = 472A8E4626FC51F8008203EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				472A8E2226F06E78008203EF /* MyApp */,
+				472A8E4426FC51F8008203EF /* Cryptocurrency Convertor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		472A8E2126F06E78008203EF /* Resources */ = {
+		472A8E4326FC51F8008203EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472A8E3326F06E7A008203EF /* LaunchScreen.storyboard in Resources */,
-				472A8E3026F06E7A008203EF /* Assets.xcassets in Resources */,
-				472A8E2E26F06E78008203EF /* Main.storyboard in Resources */,
+				472A8E5526FC51FB008203EF /* LaunchScreen.storyboard in Resources */,
+				472A8E5226FC51FB008203EF /* Assets.xcassets in Resources */,
+				472A8E5026FC51F8008203EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		472A8E1F26F06E78008203EF /* Sources */ = {
+		472A8E4126FC51F8008203EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472A8E2B26F06E78008203EF /* ViewController.swift in Sources */,
-				472A8E3B26FC4B46008203EF /* Chapter 4.swift in Sources */,
-				472A8E2726F06E78008203EF /* AppDelegate.swift in Sources */,
-				472A8E2926F06E78008203EF /* SceneDelegate.swift in Sources */,
+				472A8E4D26FC51F8008203EF /* ViewController.swift in Sources */,
+				472A8E4926FC51F8008203EF /* AppDelegate.swift in Sources */,
+				472A8E4B26FC51F8008203EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		472A8E2C26F06E78008203EF /* Main.storyboard */ = {
+		472A8E4E26FC51F8008203EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				472A8E2D26F06E78008203EF /* Base */,
+				472A8E4F26FC51F8008203EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		472A8E3126F06E7A008203EF /* LaunchScreen.storyboard */ = {
+		472A8E5326FC51FB008203EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				472A8E3226F06E7A008203EF /* Base */,
+				472A8E5426FC51FB008203EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		472A8E3526F06E7A008203EF /* Debug */ = {
+		472A8E5726FC51FB008203EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		472A8E3626F06E7A008203EF /* Release */ = {
+		472A8E5826FC51FB008203EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,36 +281,36 @@
 			};
 			name = Release;
 		};
-		472A8E3826F06E7A008203EF /* Debug */ = {
+		472A8E5A26FC51FB008203EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = "Cryptocurrency Convertor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.Cryptocurrency-Convertor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		472A8E3926F06E7A008203EF /* Release */ = {
+		472A8E5B26FC51FB008203EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = "Cryptocurrency Convertor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.apps.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.Cryptocurrency-Convertor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		472A8E1E26F06E78008203EF /* Build configuration list for PBXProject "MyApp" */ = {
+		472A8E4026FC51F8008203EF /* Build configuration list for PBXProject "Cryptocurrency Convertor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				472A8E3526F06E7A008203EF /* Debug */,
-				472A8E3626F06E7A008203EF /* Release */,
+				472A8E5726FC51FB008203EF /* Debug */,
+				472A8E5826FC51FB008203EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		472A8E3726F06E7A008203EF /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		472A8E5926FC51FB008203EF /* Build configuration list for PBXNativeTarget "Cryptocurrency Convertor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				472A8E3826F06E7A008203EF /* Debug */,
-				472A8E3926F06E7A008203EF /* Release */,
+				472A8E5A26FC51FB008203EF /* Debug */,
+				472A8E5B26FC51FB008203EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 472A8E1B26F06E78008203EF /* Project object */;
+	rootObject = 472A8E3D26FC51F8008203EF /* Project object */;
 }
