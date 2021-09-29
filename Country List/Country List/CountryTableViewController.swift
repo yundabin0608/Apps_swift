@@ -31,5 +31,16 @@ class CountryTableViewController: UITableViewController {
         // Configure the cell...
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedCountry = flags[indexPath.row];
+        
+        performSegue(withIdentifier: "DefinitionSeque", sender: selectedCountry)
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let defOfViewController = segue.destination as! CountryDefinitionViewController
+        let selectedCountry = sender as! String;
+        defOfViewController.country = selectedCountry;
+    }
 }
