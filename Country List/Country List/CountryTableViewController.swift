@@ -26,7 +26,7 @@ class CountryTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell", for: indexPath)
        
-        cell.textLabel?.text = flags[indexPath.row].flag+"-"+String(flags[indexPath.row].year);
+        cell.textLabel?.text = flags[indexPath.row].flag+"-"+flags[indexPath.row].name;
         
         return cell
     }
@@ -38,8 +38,11 @@ class CountryTableViewController: UITableViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let defOfViewController = segue.destination as! CountryDefinitionViewController
-        let selectedCountry = sender as! String;
-        defOfViewController.country = selectedCountry;
+        if let defOfViewController = segue.destination as? CountryDefinitionViewController{
+            if let selectedCountry = sender as? Country {
+                defOfViewController.country = selectedCountry;
+                
+            }
+        }
     }
 }
