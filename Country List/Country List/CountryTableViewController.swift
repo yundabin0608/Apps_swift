@@ -9,7 +9,7 @@ import UIKit
 
 class CountryTableViewController: UITableViewController {
     
-    let flags = ["🇰🇷","🇳🇿","🇩🇪","🇹🇼","🇹🇷"];
+    let flags =  getCountries();
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +26,8 @@ class CountryTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell", for: indexPath)
        
-        cell.textLabel?.text = flags[indexPath.row];
-
-        // Configure the cell...
+        cell.textLabel?.text = flags[indexPath.row].flag+"-"+String(flags[indexPath.row].year);
+        
         return cell
     }
     
